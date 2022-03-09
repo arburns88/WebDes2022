@@ -1,0 +1,64 @@
+/* these allow us to change things within a tag or a specified class */
+body{
+    margin:10px;
+    padding:0px;
+    border:0px;
+}
+
+p{
+    color:indigo;
+}
+
+h1{
+    color:hotpink;
+}
+
+.div1{
+    border: 5px outset #3D3061;
+    background-color:#6222E1;
+    color:5px outset orange;
+}
+
+.div2{
+    border:5px outset orange;
+    background-color:#9167E6;
+}
+
+.left{
+    width: 100%;
+    background-color: orange;
+}
+
+.main{
+    width: 100%;
+    background-color: greenyellow;
+}
+
+/* customization of the buttons categorized as button1 */
+.button1{
+  background-color: #3565e8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem grey);
+  border-radius: 5px;
+}
+
+/* changes the look of the button while it is being hovered over to make it easier it identify it as a button */
+.button1:hover {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+
+/* the equivalent of if statements in css that allow us to change things based on conditions for example color based on size */
+@media screen and (max-width: 600px) {
+    .left, .main, .right {
+        background-color:rgb(206, 47, 255);
+    }
+}
