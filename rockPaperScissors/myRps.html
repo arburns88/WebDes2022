@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="_js/myRpsV2.js"></script>
+    <link rel="stylesheet" href="_css\rpsStyle.css"></link>
+    <title>Rock Paper Scissors</title>
+</head>
+<!-- onload="init()" -->
+<body >
+    <!-- buttons that run the userchoice when clikced that tell the js what the user chose -->
+    <button class="button1" onclick="userChoice('rock')">Rock</button>
+    <button class="button1" onclick="userChoice('paper')">Paper</button>
+    <button class="button1" onclick="userChoice('scissors')">Scissors</button>
+    <!-- the text on the screen that tells what the cpu chose and who won -->
+    <p>Computer chose:
+        <p id="cpuChose"> </p>
+
+        <p id="winner"> </p>
+    </p>
+    <!-- divs for the images that get added -->
+    <div id="player"></div>
+    <div id="computer"></div>
+    <div id="outcome"></div>
+</body>
+
+
+</html>
