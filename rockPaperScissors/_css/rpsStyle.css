@@ -1,21 +1,67 @@
 /* customization of the buttons categorized as button1 */
-.button1{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    filter: drop-shadow(0 0 0.75rem grey);
-    border-radius: 5px;
-  }
+.rockButton{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem grey);
+  border-radius: 5px;
+}
   
   /* changes the look of the button while it is being hovered over to make it easier it identify it as a button */
-  .button1:hover {
-    background-color: grey;
-    transform: translateY(1px);
-  }
+.rockButton:hover {
+  background-color: green;
+  transform: translateY(1px);
+}
+
+
+/* customization of the buttons categorized as button1 */
+.paperButton{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem grey);
+  border-radius: 5px;
+}
+  
+  /* changes the look of the button while it is being hovered over to make it easier it identify it as a button */
+.paperButton:hover {
+  background-color: green;
+  transform: translateY(1px);
+}
+
+
+/* customization of the buttons categorized as button1 */
+.scissorsButton{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem grey);
+}
+  
+  /* changes the look of the button while it is being hovered over to make it easier it identify it as a button */
+.scissorsButton:hover {
+  background-color: green;
+  transform: translateY(1px);
+}
