@@ -1,3 +1,7 @@
+body{
+  background-color: yellow;
+}
+
 /* customization of the buttons categorized as button1 */
 .rockButton{
   background-color: blue;
@@ -41,6 +45,7 @@
 .paperButton:hover {
   background-color: green;
   transform: translateY(1px);
+  color: white;
 }
 
 
